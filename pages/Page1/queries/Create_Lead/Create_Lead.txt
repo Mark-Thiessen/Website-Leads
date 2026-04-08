@@ -1,0 +1,23 @@
+INSERT 
+INTO _cp.powerplan 
+(
+	Created_On, 
+	Modified_On,
+	IsActive, 
+	Category_1, 
+	full_name,
+	phone, 
+	address,
+	email
+) 
+	VALUES 
+	(
+		CURRENT_TIMESTAMP, 
+		CURRENT_TIMESTAMP, 
+		1, 
+		'Website Lead', 
+		{{Full_Name.text}}, 
+		{{Phone_Number.text}}, 
+		{{Address.text}}, 
+		{{Email_Address.text}}
+	)
