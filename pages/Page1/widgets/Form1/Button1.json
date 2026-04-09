@@ -14,7 +14,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -26,14 +30,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6v1jwhupse",
-  "leftColumn": 48,
+  "leftColumn": 47,
   "minWidth": 120,
   "mobileBottomRow": 37,
   "mobileLeftColumn": 46,
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "",
+  "onClick": "{{Create_Lead.run()}}  ",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "8cj71frfgp",
@@ -42,11 +46,12 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "text": "Submit",
+  "tooltip": "Submit Form",
   "topRow": 42,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "vm313kf7ly",
+  "widgetId": "rjc8cfk76k",
   "widgetName": "Button1"
 }
