@@ -8,7 +8,8 @@ INTO _cp.powerplan
 	full_name,
 	phone, 
 	address,
-	email
+	email,
+	Note
 ) 
 	VALUES 
 	(
@@ -19,5 +20,6 @@ INTO _cp.powerplan
 		{{Full_Name.text}}, 
 		{{Phone_Number.text}}, 
 		{{Address.text}}, 
-		{{Email_Address.text}}
+		{{Email_Address.text}},
+		{{Notes.text}}
 	)
