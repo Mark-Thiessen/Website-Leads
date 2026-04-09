@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT \nINTO _cp.powerplan \n(\n\tCreated_On, \n\tModified_On,\n\tIsActive, \n\tCategory_1, \n\tfull_name,\n\tphone, \n\taddress,\n\temail,\n\tNote\n) \n\tVALUES \n\t(\n\t\tCURRENT_TIMESTAMP, \n\t\tCURRENT_TIMESTAMP, \n\t\t1, \n\t\t'Website Lead', \n\t\t{{Full_Name.text}}, \n\t\t{{Phone_Number.text}}, \n\t\t{{Address.text}}, \n\t\t{{Email_Address.text}},\n\t\t{{Notes.text}}\n\t)",
+      "body": "INSERT INTO _cp.powerplan \n(\n\tCreated_On, \n\tModified_On,\n\tIsActive, \n\tCategory_1, \n\tfull_name,\n\tphone, \n\taddress,\n\temail,\n\tNote\n) \n\tVALUES \n\t(\n\t\tCURRENT_TIMESTAMP, \n\t\tCURRENT_TIMESTAMP, \n\t\t1, \n\t\t'Website Lead', \n\t\t{{Full_Name.text}}, \n\t\t{{Phone_Number.text}}, \n\t\t{{Address.text}}, \n\t\t{{Email_Address.text}},\n\t\t{{Notes.text}}\n\t)",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

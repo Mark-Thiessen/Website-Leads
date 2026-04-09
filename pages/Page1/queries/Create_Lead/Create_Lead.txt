@@ -1,5 +1,4 @@
-INSERT 
-INTO _cp.powerplan 
+INSERT INTO _cp.powerplan 
 (
 	Created_On, 
 	Modified_On,

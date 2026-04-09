@@ -14,11 +14,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -37,7 +33,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{JSObject1.submitForm()}}",
+  "onClick": "",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "8cj71frfgp",
