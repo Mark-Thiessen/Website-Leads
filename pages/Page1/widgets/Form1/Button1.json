@@ -37,7 +37,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{Create_Lead.run()}}  ",
+  "onClick": "{{\n  (async () => {\n    if (!Full_Name.isValid) {\n      showAlert('Please fill all required fields', 'error');\n      return;\n    }\n\n    try {\n      await Create_Lead.run();\n      storeValue('ignoreUrlId', true);\n      resetWidget(\"Form1\", true);\n\n      showAlert('Successfully Created', 'success');\n    } catch (e) {\n      showAlert('Something is wrong with your data', 'error');\n    }\n  })()\n}}\n",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "8cj71frfgp",
