@@ -15,12 +15,17 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isRequired"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
   "inputType": "EMAIL",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": "true",
   "isVisible": true,
   "key": "e9bmqx3uzs",
   "label": "Email Address",
