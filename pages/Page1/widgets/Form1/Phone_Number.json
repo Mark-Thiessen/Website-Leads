@@ -49,6 +49,7 @@
   "rightColumn": 64,
   "topRow": 9,
   "type": "PHONE_INPUT_WIDGET",
+  "validation": "",
   "version": 1,
   "widgetId": "v07zckr1od",
   "widgetName": "Phone_Number"
