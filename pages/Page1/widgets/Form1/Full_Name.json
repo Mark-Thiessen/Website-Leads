@@ -18,6 +18,9 @@
   "dynamicPropertyPathList": [
     {
       "key": "isRequired"
+    },
+    {
+      "key": "resetOnSubmit"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -47,7 +50,7 @@
   "parentId": "8cj71frfgp",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetOnSubmit": false,
+  "resetOnSubmit": "false",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "showStepArrows": false,

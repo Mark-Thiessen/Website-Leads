@@ -44,7 +44,7 @@
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
+  "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 63,
   "text": "Submit",
