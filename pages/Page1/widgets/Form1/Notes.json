@@ -42,7 +42,7 @@
   "parentId": "8cj71frfgp",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
+  "resetOnSubmit": false,
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldAllowAutofill": false,
