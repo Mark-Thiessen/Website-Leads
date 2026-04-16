@@ -37,7 +37,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{\n(async () => {\nif (!Full_Name.isValid || !Email_Address.isValid) {\nshowAlert('Please fill all required fields', 'error');\nreturn;\n}\ntry {\nawait Create_Lead.run();\nstoreValue('ignoreUrlId', true);\nresetWidget(\"Form1\", true);\nshowAlert('Successfully Created', 'success');\n} catch (e) {\nshowAlert('Something is wrong with your data', 'error');\n}\n})()\n}}",
+  "onClick": "{{\n(async () => {\nif (!Full_Name.isValid || !Email_Address.isValid) {\nshowAlert('Please fill in all the required fields', 'error');\nreturn;\n}\ntry {\nawait Create_Lead.run();\nstoreValue('ignoreUrlId', true);\nresetWidget(\"Form1\", true);\nshowAlert('Successfully Submitted, Thankyou', 'success');\n} catch (e) {\nshowAlert('Something is wrong with your form data', 'error');\n}\n})()\n}}",
   "originalBottomRow": 39,
   "originalTopRow": 35,
   "parentId": "8cj71frfgp",
